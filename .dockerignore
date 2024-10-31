@@ -1,9 +1,0 @@
-__pycache__
-js/
-coverage-report
-.github
-.git
-.gitignore
-.vscode
-followthemoney.egg-info
-.tx

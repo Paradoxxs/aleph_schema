@@ -1,0 +1,26 @@
+IPAddress:
+  label: IP Address
+  plural: IP Addresses
+  Description: IP Address
+  matchable: true
+  generated: false
+  featured:
+    - IP
+  required:
+    - IP
+  properties:
+    IP:
+      label: "IP address"
+      type: ip
+    asn:
+      label: "ASN"
+      type: text
+    asn_organisation:
+      label: "ASN Organisation"
+      type: entity
+      range: Organisation
+    Owner_organisation:
+      label: "Owner Organisation"
+      type: entity
+      range: Organisation
+    

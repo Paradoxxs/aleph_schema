@@ -1,0 +1,66 @@
+Domain:
+  label: Domain
+  plural: Domains
+  description: >
+    Domain easy to remember cover for IP(s) addresses.
+  matchable: true
+  generated: false
+  featured:
+    - name
+    - Registrar_name
+    - IP_Address
+    - creation_date
+    - expiration_date
+  required:
+    - name
+  featured:
+    - description
+    - entity
+  caption:
+    - description
+  properties:
+    name:
+      label: Name
+      type: name
+    creation_date:
+      label: "Creation date"
+      type: date    
+    expiration_date:
+      label: "Expiration date"
+      type: date
+    IP_Address:
+      label: "IP Address"
+      type: ip
+    NS_servers:
+      label: "NS servers"
+      type: text
+    MX_record:
+      label: "MX record"
+      type: text
+    A_record:
+      label: "A record"
+      type: text
+    AAAA_record:
+      label: "AAAA record"
+      type: text
+    TXT_record:
+      label: "TXT record"
+      type: text
+    CNAME_record:
+      label: "CNAME record"
+      type: text
+    Registrar_name:
+      label: "Registrar name"
+      type: name
+    Registrar_address:
+      label: "Registrar address"
+      type: text
+    Registrar_email:
+      label: "Registrar email"
+      type: email
+    Registrar_phone:
+      label: "Registrar phone"
+      type: phone
+
+
+    
