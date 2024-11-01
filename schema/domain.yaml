@@ -5,6 +5,8 @@ Domain:
     Domain easy to remember cover for IP(s) addresses.
   matchable: true
   generated: false
+  extends:
+    - Thing
   featured:
     - name
     - Registrar_name
@@ -13,6 +15,8 @@ Domain:
     - expiration_date
   required:
     - name
+  caption:
+    - name 
   properties:
     name:
       label: Name

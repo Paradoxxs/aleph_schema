@@ -4,10 +4,17 @@ IPAddress:
   Description: IP Address
   matchable: true
   generated: false
+  extends:
+    - Thing
   featured:
     - IP
+    - asn
+    - asn_organisation
+    - Owner_organisation
   required:
     - IP
+  caption:
+    - name
   properties:
     IP:
       label: "IP address"
