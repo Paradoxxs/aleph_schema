@@ -13,11 +13,6 @@ Domain:
     - expiration_date
   required:
     - name
-  featured:
-    - description
-    - entity
-  caption:
-    - description
   properties:
     name:
       label: Name
