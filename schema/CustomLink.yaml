@@ -1,5 +1,5 @@
 # Two entities are connected but the nature of the connection is tbd
-UnknownLink:
+CustomLink:
   label: "Custom link"
   plural: "Custom links"
   extends: Interest
